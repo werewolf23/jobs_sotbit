@@ -1,4 +1,4 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+<?
 $aMenuLinks = Array(
 	Array(
 		"Как купить", 
@@ -20,7 +20,7 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
-	),	
+	),
 	Array(
 		"Гарантия", 
 		"about/guaranty/", 
@@ -29,18 +29,25 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Контакты",
-		"about/contacts/",
-		Array(),
-		Array(),
-		""
+		"Контакты", 
+		"about/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
 	),
 	Array(
-		"Мой кабинет",
-		"personal/",
-		Array(),
-		Array(),
-		"\$USER->IsAuthorized()"
+		"Мой кабинет", 
+		"personal/", 
+		Array(), 
+		Array(), 
+		"\$USER->IsAuthorized()" 
 	),
+	Array(
+		"Экзамен 2", 
+		"ex2/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
 );
 ?>
